@@ -1,0 +1,171 @@
+body
+{
+  background-color: #ffffff;
+  color:#222222;
+  font-family: Arial, sans-serif ;
+  font-size:small;
+  position:absolute;
+  width: 100%;
+  height: 100vh;
+  display:block;
+  margin:0;
+}
+.nav
+{
+  display:flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin: auto;
+  min-width:244px;
+  padding-top: 20px;
+}
+
+.left
+{
+  flex: 0 0 200px;
+}
+.right
+{
+  align-items: center;
+  display:flex;
+  padding-left: 30px;
+  padding-right: 30px;
+  justify-content: flex-end;
+  float:right;
+  order:1;
+}
+.right-left
+{
+  justify-content: space-between;
+  color:grey;
+  padding-right:15px;
+  margin-right:15px;
+  flex:0 1 auto; 
+  display: flex;
+  text-align: right;
+} 
+.gmail
+{
+  padding-right: 10px;
+} 
+.boutonconnexion
+{
+  border:1px solid #4285f4;
+  font-weight: bold;
+  margin-left: 20px;
+  border-radius:10px;
+  background:#4285f4;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  line-height:28px;
+  color:#ffffff;
+}
+.boutonconnexion > a
+{
+  color:#ffffff;
+}  
+
+.section
+{
+margin: 0 auto;
+width: 100%;
+justify-content:center;
+text-align: center;
+align-items: center;
+margin-top:100px;
+}
+
+.partage
+{
+  position:relative;
+  top:50%;
+  right:-10%;
+} 
+.searchbar
+{
+  align-items: center;
+  flex-wrap: nowrap;
+  text-decoration-color: lightgrey;
+  border: 1px solid lightgrey;
+  border-radius: 20px;
+  margin-left:auto;
+  margin-left: auto;
+  margin-bottom: 30px;
+  margin-top:30px;
+  padding-top: 10px;
+  display:inline-block;
+}
+
+.search 
+{
+  width: 300px;
+  margin-bottom: 15px;
+  border:none;
+}
+
+.loupe 
+{
+  padding-top: -20px;
+  margin-left: 20px;
+} 
+
+.mic
+{
+  margin-right: 20px;
+} 
+
+.boutons
+{
+  padding:15px;
+  margin:5px;
+  border-radius: 5px;
+  border:none;
+  color:grey;
+} 
+
+.footer
+{
+  background-color:#f2f2f2f2;
+  position: absolute;
+  bottom: 0;
+  Left:0;
+  display:block;
+  width:100vw;
+  height:100px;
+}
+
+.france
+{
+  border-bottom: 1px solid #e4e4e4;
+  padding:10px;
+  font-size: 16px;
+  color: rgba(0,0,0,.54);
+} 
+
+.left-footer .right-footer
+{
+ width: 50%;
+} 
+
+.left-footer
+{
+  float: left;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+.right-footer
+{
+  float: right;
+  padding-right: 10px;
+  padding-top: 10px;
+}
+
+a
+{
+  text-decoration: none;
+  color:#5f6368;
+  padding-right:2px;
+  padding-left: 2px;
+}
